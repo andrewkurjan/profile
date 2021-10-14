@@ -1,0 +1,108 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url("https://use.fontawesome.com/releases/v5.12.1/css/all.css");
+
+html {
+  height: 100%;
+}
+
+body {
+
+  font-family: 'Open Sans';
+  font-size: 0.8em;
+  background-color: #f1faee;
+  background-image: linear-gradient(135deg, #ffffff 0%, #999999 100%);
+}
+
+p {
+  line-height: 2em;
+  margin: 2em 0 ;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #6399BB;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+a {
+  color: #6399BB;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #457B9D;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 2em;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#profile-img {
+  width: 200px;
+}
+
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  margin-top: 2em;
+}
+
+.drop-shadow {
+  box-shadow: 0px 10px 34px -6px rgba(0,0,0,0.2);
+}
+
+.btn-large {
+  background-color: #6399BB;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.btn-large:hover {
+  background-color: #457B9D;
+  color: white;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
